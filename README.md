@@ -12,4 +12,7 @@ https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=asp
 
 - mongosh -u root -p password
 
+dotnet add BookStoreApi.csproj package Swashbuckle.AspNetCore -v 6.2.3
+dotnet add package MongoDB.Driver
 
+http://0.0.0.0:5000/swagger/index.html
